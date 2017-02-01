@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #7ECAAD;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+#logo {
+  max-height: 60px;
+  float: left;
+}
+
+#Tel {
+  text-align: right;
+  float: right;
+  padding-top: 30px;
+}
+
+@media(max-width: 400px){
+  #Tel{
+    display: none;
+  }
+}
+
+.banner {
+  height: 600px;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: top;
+  color: white;
+  font-family: inherit;
+  position: relative;
+  top: 60px;
+  margin-bottom: 90px;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 210px;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 5px 3px 3px black;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 320px;
+  text-align: center;
+  text-shadow: 5px 3px 3px black;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content{
+  overflow: hidden;
+}
+
+footer {
+  height: 60px;
+  background: #7ECAAD;
+  text-align: center;
+  font-size: 20px;
+}
